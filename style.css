@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    height: 550px;
+    width: 420px;
+    border: #2563eb solid 13px;
+    margin-left: 35%;
+    margin-top: 6%;
+    position: relative;
+    background: #f0f9ff;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.first h1 {
+    margin-left: 150px;
+    padding-top: 4%;
+    color: #7c3aed;
+}
+
+.second {
+    padding: 30px;
+    margin-left: 20px;
+
+
+}
+
+input.user {
+
+    display: block;
+    margin: 20px;
+    height: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 10px;
+    margin-top: 8%;
+    background-color: transparent;
+    transition: 1s;
+}
+
+input:hover {
+    transform: scale(1.2);
+
+}
+
+input.pass {
+
+    margin: 20px;
+    height: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 10px;
+    margin-top: 8%;
+    background-color: transparent;
+    transition: 1s;
+
+}
+
+input:focus {
+    border-color: #7c3aed;
+    outline: none;
+}
+
+.third {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.third input {
+    background-color: transparent;
+}
+
+.third a {
+    font-size: medium;
+    text-decoration: none;
+}
+
+.third input {
+    margin-left: 10px;
+}
+
+.box input {
+    background-color: transparent;
+}
+
+.last button {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 10%;
+    margin-left: 30%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+button:hover {
+    transform: scale(1.5);
+    background-color: #6d28d9;
+}
+
+button {
+    background-color: #2563eb;
+}
+
+.end {
+    display: flex;
+    margin-top: 7%;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.end a {
+    text-decoration: none;
+}
+@media (max-width:768px) {
+    .header{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .user,.pass,.button{
+        width: 90%;
+    } 
+}
